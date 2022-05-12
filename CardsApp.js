@@ -1,7 +1,7 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //---------------------------------------------CARDS EN PANTALLA-----------------------------------------------------------------------------------//
 carrito = JSON.parse(localStorage.getItem('carrito') || []);
-function generadorDeCards(bicis) {
+function generadorDeCards(bicis){
     const section= document.getElementById('productos-container')
     for(const bici of bicis){
         const container = document.createElement('div')
